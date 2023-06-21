@@ -1,0 +1,22 @@
+div ul li{
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+li{
+    color: blueviolet;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    color: blueviolet;
+}
+.footer{
+    
+    margin-bottom: 0;
+    
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}

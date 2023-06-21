@@ -1,0 +1,224 @@
+{
+  "seller": [
+    {
+      "name": "Raj",
+      "password": "12345",
+      "email": "rrr@text.com",
+      "id": 1
+    },
+    {
+      "name": "Raj",
+      "password": "Patel",
+      "email": "rrr@text.com",
+      "id": 2
+    },
+    {
+      "name": "Raj",
+      "password": "12345",
+      "email": "rrr@text.com",
+      "id": 3
+    },
+    {
+      "name": "raj",
+      "password": "asd",
+      "email": "bbs@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Raj",
+      "password": "12345",
+      "email": "rrr@text.com",
+      "id": 5
+    },
+    {
+      "name": "Raj",
+      "password": "12345",
+      "email": "rrr@text.com",
+      "id": 6
+    },
+    {
+      "name": "Raj",
+      "password": "1234",
+      "email": "bbs@gmail.com",
+      "id": 7
+    }
+  ],
+  "Products": [
+    {
+      "name": "Nike Shoes",
+      "price": "200",
+      "color": "Black",
+      "category": "Fashion",
+      "image": "https://getwallpapers.com/wallpaper/full/7/8/1/1419878-nike-shoes-wallpaper-3840x2160-notebook.jpg",
+      "id": 1
+    },
+    {
+      "name": "Adidas Shoes",
+      "price": "300",
+      "color": "Green",
+      "category": "Fashion",
+      "image": "https://cdn.wallpapersafari.com/85/28/qfXnMu.jpg",
+      "id": 2
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "300",
+      "color": "Red",
+      "category": "Fashion",
+      "image": "https://wallpaper.dog/large/982037.jpg",
+      "id": 3
+    },
+    {
+      "name": "Coverse ",
+      "price": "100",
+      "color": "White",
+      "category": "Fashion",
+      "image": "https://images3.alphacoders.com/260/260275.jpg",
+      "id": 4
+    },
+    {
+      "name": "Rolex Watch",
+      "price": "1200",
+      "color": "Silver Gold",
+      "category": "Luxary",
+      "image": "https://wallpapercave.com/wp/wp2149382.jpg",
+      "id": 5
+    },
+    {
+      "name": "Adidas T-shirt",
+      "price": "50",
+      "color": "Blue-yellow",
+      "category": "Clothing",
+      "image": "https://www.80scasualclassics.co.uk/images/adidas-originals-retro-3-stripes-t-shirt-blue-yellow-p2343-41104_medium.jpg",
+      "id": 6
+    },
+    {
+      "name": "Sunglass",
+      "price": "100",
+      "color": "Black",
+      "category": "Fashion",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.CtJSPzwRRY-XtuEq0fEhxAHaEc&pid=Api&P=0&h=180",
+      "id": 7
+    },
+    {
+      "name": "Watch",
+      "price": "1000",
+      "color": "Silver",
+      "category": "Watch",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.1a94MPDY7ZSDGALnEbDHTAHaEo&pid=Api&P=0&h=180",
+      "id": 8
+    },
+    {
+      "name": "Iphone 12",
+      "price": "1000",
+      "color": "Black",
+      "category": "Electronic",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.ne4luWiFcG49jRLANSs0GAHaIw&pid=Api&P=0&h=180",
+      "id": 9
+    },
+    {
+      "name": "Shirt",
+      "price": "20",
+      "color": "Red",
+      "category": "Fashion",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.ASJ6NdoaMc-WfdpsGa6dNAHaFj&pid=Api&P=0&h=180",
+      "id": 10
+    },
+    {
+      "name": "Apple Watch 7",
+      "price": "300",
+      "color": "Black",
+      "category": "Electronic",
+      "image": "https://iglaz.ua/image/cache/catalog/Apple-Watch/AppleWatchSeries3(GPS)38mmSpaceGray-1200x800.jpg",
+      "id": 11
+    },
+    {
+      "name": "Cap",
+      "price": "50",
+      "color": "Orange",
+      "category": "Fashion",
+      "image": "https://wildlife.state.nh.us/shop/images/clothing/orangecap-lg.jpg",
+      "id": 12
+    },
+    {
+      "name": "Tennis Racket",
+      "price": "300",
+      "color": "Green",
+      "category": "Sports",
+      "image": "http://blog.hdwallsource.com/wp-content/uploads/2015/12/tennis-ball-and-racket-wallpaper-photos-59880-61672-hd-wallpapers.jpg",
+      "id": 13
+    },
+    {
+      "name": "Motor Cycle Helmet",
+      "price": "50",
+      "color": "Blue",
+      "category": "Fashion",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.JFKJRa-xUZxePfbssSzHZgHaHw&pid=Api&P=0&h=180",
+      "id": 15
+    },
+    {
+      "name": "Cycle",
+      "price": "400",
+      "color": "Yellow",
+      "category": "Sports",
+      "image": "https://greaterlafayetteind.com/wp-content/uploads/2020/10/iStock-1070233662.jpg",
+      "id": 16
+    },
+    {
+      "name": "Samsung Tv",
+      "price": "2000",
+      "color": "Black",
+      "category": "Electronic",
+      "image": "https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202003/24/00114841914451____3__1200x1200.jpg",
+      "id": 17
+    },
+    {
+      "name": "Washing Machine",
+      "price": "1000",
+      "color": "White",
+      "category": "Electronic",
+      "image": "https://tse1.mm.bing.net/th?id=OIP._75mgS5XAZFQj9b-Eq-RGAHaHa&pid=Api&P=0&h=180",
+      "id": 18
+    },
+    {
+      "name": "Perfume",
+      "price": "20",
+      "color": "Blue",
+      "category": "Fashion",
+      "image": "https://wallpapercave.com/wp/wp7225261.png",
+      "id": 19
+    },
+    {
+      "name": "Basketball",
+      "price": "20",
+      "color": "Orange",
+      "category": "Sport",
+      "image": "https://www.pixelstalk.net/wp-content/uploads/2016/05/Basketball-Ball-Wallpapers-HD-Pictures.jpg",
+      "id": 20
+    },
+    {
+      "name": "Belt",
+      "price": "200",
+      "color": "black",
+      "category": "Fashion",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.2fccQ15niTkR6xvr1CI93wHaH-&pid=Api&P=0&h=180",
+      "id": 21
+    }
+  ],
+  "users": [
+    {
+      "name": "Raj",
+      "email": "rrr@text.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Patel",
+      "email": "patel@.com",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "cart": [],
+  "orders": []
+}

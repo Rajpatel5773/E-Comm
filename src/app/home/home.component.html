@@ -1,0 +1,136 @@
+<!-- this is for slide show -->
+<ngb-carousel *ngIf="popularProduct" style="margin-top: 20px;">
+    <ng-template *ngFor="let item of popularProduct" ngbSlide>
+        <div class="picsum-img-wrapper">
+           <a routerLink="/details/{{item.id}}">
+            <img class="product-header-img" src="{{item.image}}" alt="Random first slide" />
+        </a> 
+        </div>
+        <div class="carousel-caption">
+            <h3>{{item.name}}</h3>
+            <p>“I’m not a shoe addict, I’m a collector.”. “Good shoes take you good places.”. </p>
+        </div>
+    </ng-template>
+</ngb-carousel>
+<!-- -----------------Home page product start from here-------------------------- -->
+<div class="product-list-wrapper">
+    <h1>Trendy Products</h1>
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let item of trendy">
+            <div class="product-item">
+                <img src="{{item.image}}" alt="">
+                <div class="product-details">
+                    <h6 class="name-head">{{item.name}}</h6>
+                    <div class="product-price">
+                        <h6>Price:${{item.price}}</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Color: {{item.color}}</h6>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <a routerLink="/details/{{item.id}}">View Details</a>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+        
+        <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+        <!-- <div class="col-sm-3">
+            <div class="product-item">
+                <img src="https://wallpaper.dog/large/982037.jpg" alt="">
+                <div class="product-details">
+                    <h6 class="name-head">Adidas Shoes 350boost</h6>
+                    <div class="product-price">
+                        <h6>Price: $350</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Color: Red</h6>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <a href="">View Details</a>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div> -->
+        <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+        <!-- <div class="col-sm-3">
+            <div class="product-item">
+                <img src="https://images3.alphacoders.com/260/260275.jpg" alt="">
+                <div class="product-details">
+                    <h6 class="name-head">Adidas Shoes 350boost</h6>
+                    <div class="product-price">
+                        <h6>Price: $350</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Color: Red</h6>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <a href="">View Details</a>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div> -->
+        <!-- //////////////////// -->
+        <!-- <div class="col-sm-3">
+            <div class="product-item">
+                <img src="https://wallpapercave.com/wp/wp2149382.jpg" alt="">
+                <div class="product-details">
+                    <h6 class="name-head">Adidas Shoes 350boost</h6>
+                    <div class="product-price">
+                        <h6>Price: $350</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Color: Red</h6>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <a href="">View Details</a>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div> -->
+        <!-- ///////////////////////////// -->
+        <!-- <div class="col-sm-3">
+            <div class="product-item">
+                <img src="https://1.bp.blogspot.com/-x3JWY6K04vI/TneHqZds7kI/AAAAAAAABuU/9a8pi4JRRRI/s1600/Rolex+Watches+%25281%2529.jpg" alt="">
+                <div class="product-details">
+                    <h6 class="name-head">Adidas Shoes 350boost</h6>
+                    <div class="product-price">
+                        <h6>Price: $350</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Color: Red</h6>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <a href="">View Details</a>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div> -->
+        <!-- ////////////////////////// -->
+        <!-- <div class="col-sm-3">
+            <div class="product-item">
+                <img src="https://c4.wallpaperflare.com/wallpaper/973/496/886/clock-rolex-time-watch-wallpaper-preview.jpg" alt="">
+                <div class="product-details">
+                    <h6 class="name-head">Adidas Shoes 350boost</h6>
+                    <div class="product-price">
+                        <h6>Price: $350</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Color: Red</h6>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <a href="">View Details</a>
+                    <a href="">Add to cart</a>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>

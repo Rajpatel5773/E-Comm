@@ -1,0 +1,43 @@
+table{
+    text-align: left;
+    color:blueviolet;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+}
+thead{
+    text-decoration: underline;
+}
+table td , table th{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    min-height: 160px;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    color: blueviolet;
+    font-family: sans-serif;
+    text-align: center;
+}
+.icona,.edit{
+    font-size: larger;
+    
+    
+    cursor: pointer;
+
+}
+.icona:hover,.edit:hover{
+    color:rgb(0, 0, 0);
+}
+p{
+    text-align: left;
+    color: green;
+    font-size: large;
+} 
+
+

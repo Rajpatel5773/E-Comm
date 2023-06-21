@@ -1,0 +1,35 @@
+.checkout h1{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.checkout h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+.form-input{
+height: 35px;
+margin-bottom: 20px;
+padding-left: 10px;
+border: 1px solid blueviolet;
+}
+p {
+    margin-top: 10px;
+    cursor: pointer;
+}
+p:hover{
+    color: blue;
+}
+.mes{
+    text-align: center;
+    color: rgb(28, 158, 36);
+    font-size: large;
+}

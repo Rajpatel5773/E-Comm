@@ -1,0 +1,24 @@
+.my-orders h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.my-orders .order-img{
+    width: 100px;
+}
+.order-data{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(195, 194, 194);
+    color: blue;
+}
+.my-orders{
+    margin-bottom: 100px;
+   
+}
+.r-l{
+    font-size: large;
+    /* text-decoration:underline; */
+    border-bottom: 1px solid black;
+}

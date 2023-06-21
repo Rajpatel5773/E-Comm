@@ -1,0 +1,22 @@
+div{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(237, 238, 238);
+    
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    
+    font-weight: bolder;
+}
+p{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+   color: rgb(121, 120, 120);
+   font-weight: bold;
+}

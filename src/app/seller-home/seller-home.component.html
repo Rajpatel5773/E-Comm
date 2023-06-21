@@ -1,0 +1,48 @@
+<div class="produlist">
+    <h1>All Product List</h1>
+    <p style="text-align: center; font-weight: bold;">{{productmessage | uppercase}}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>color</th>
+                <th>Category</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productList">
+                <td><img src="{{item.image}}" /></td>
+                <td>{{item.name | titlecase}}</td>
+                <td>${{item.price}}</td>
+                <td>{{item.color | titlecase}}</td>
+                <td>{{item.category | titlecase}}</td>
+                <td>
+                    <fa-icon (click)="deleteProduct(item.id)" [icon]="icon" class="icona"></fa-icon>
+                    <a routerLink="/seller-update/{{item.id}}" style="margin-left: 30px; color: blueviolet;">
+                        <fa-icon [icon]="edit" class="edit"></fa-icon>
+                    </a>
+                </td>
+
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- 
+<div class="header" *ngFor="let item of productList">
+    
+      <img
+        src="{{item.image}}"
+      />
+      
+        <p>Product Name:{{item.name}}</p>
+      
+         <p>Price:{{item.price}} </p>
+       
+         <p>Color:{{item.color}}</p>
+         <p>Category:{{item.category}}</p>
+        <button onclick="addItem()">Add to cart</button>
+      </div> -->
